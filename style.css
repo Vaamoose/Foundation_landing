@@ -5,6 +5,9 @@ body {
         flex-direction: column;
         
 }
+div {
+    display:flex;
+}
 
 ul {
     display: flex;
@@ -24,5 +27,31 @@ a {
     color: #F9FAF8;
     justify-content: space-between;
     align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.right{
+    display: flex;
+    
+}
+
+.basic{
+
 }
 
