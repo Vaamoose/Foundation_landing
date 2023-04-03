@@ -61,6 +61,7 @@ a {
 
 .secondary-text {
     font-size: 18px;
+    color: #949699;
 }
 
 .left {
@@ -89,9 +90,23 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #F9FAF8;
+    text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: 18px;
+    
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 .square {
     width: 200px;
@@ -100,10 +115,13 @@ a {
     border-style: solid;
     border-color: #3882F6;
     
+        
 }
 
 .info-images {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    
     
 }
+
